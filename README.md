@@ -53,13 +53,6 @@ This improved both ROC‑AUC and F1.
 ⭐ 2. Classical ML Model Results
 Logistic Regression performed the best among the classical models, achieving high ROC‑AUC and stable F1‑scores because it works well with dense transformer embeddings and is less prone to overfitting. In contrast, SVM struggled due to the dataset’s class imbalance and required more tuning to achieve competitive performance.
 
-Lower F1
-
-Random Forest
-Inconsistent
-
-Trees don’t exploit embedding geometry well
-
 ⭐ 3. GNN Results
 GraphSAGE (Best Overall Model)
 GraphSAGE outperformed GCN because:
